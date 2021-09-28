@@ -1,0 +1,78 @@
+/* General Styles */
+body {
+  font-family: 'Titillium Web', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+h1{
+  padding: 10px;
+  text-align: center;
+  background-color: #d6bccd;
+}
+img {
+  margin-top: 20px;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+}
+/* Team Members Section  Styles*/
+main {
+  display: inline-block;
+}
+#data {
+  display:inline-flex;
+  margin-left: 60px;
+}
+.crown {
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-bottom: -40px;
+  align-self: flex-end;
+  font-size: 20px;  
+}
+.section {
+  border: 2px solid #000;
+  width: 33%;
+  margin-right: 2%;
+  display: inline-flex;
+  flex-direction: column;
+}
+.img-section {
+  text-align: center;
+}
+.bio-section{
+  padding: 30px;
+}
+.bio-section h2 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 28px;
+}
+.role {
+  display: flex;
+}
+.role-section{
+  margin-top: auto;
+  padding: 30px;
+}
+.role p{
+  padding: 5px;
+  margin-right: 10px;
+}
+
+/* Media Queries */
+@media screen and (max-width: 1000px) {
+  #data{
+      display: block;
+      width: 130%;
+
+  }
+}
+@media screen and (max-width: 400px) {
+  #data{
+    display:grid;
+    width: 300%;
+    margin-left: 0px;
+
+  }
+}
